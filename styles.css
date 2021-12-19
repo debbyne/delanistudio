@@ -58,5 +58,9 @@ padding-top: 170px;
     display: flex;
     justify-content: space-evenly;
     padding-top: 30px;
+    color: black;
 
+  }
+  .img1{
+    text-align: center;
   }
