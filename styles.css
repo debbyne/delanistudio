@@ -1,0 +1,31 @@
+/* *{
+    height:100%;
+} */
+
+body{
+    border:1px solid white;
+    margin-left: 15px;
+}
+.header{
+    background-image: url(images/del1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: contain;
+    color: white;
+    text-align: center;
+    height: 800px;
+    width: 1350px;
+  }
+  .logo-img{
+    height: 75px;
+    margin-top: 250px;
+  }
+  .header h1{
+    padding-top: 50px;
+  }
+  .haeader p{
+    border: 1px solid red;
+  }
+  .mouse{
+padding-top: 80px;
+  }
