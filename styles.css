@@ -41,7 +41,22 @@ padding-top: 170px;
     background-image: url(images/del2.jpg);
     text-align: center;
     padding-top: 80px;
+    padding-bottom: 30px;
+  }
+  .we-do{
+    width: 1350px;
+    height: 350px;
+    margin-top: 30px;
+    padding-top: 60px;
   }
   .we-do h2{
+    color: black;
     text-align: center;
+    margin-top: 60px;
+  }
+  .imgs{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
   }
