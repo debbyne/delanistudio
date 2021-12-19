@@ -29,3 +29,7 @@ body{
   .mouse{
 padding-top: 170px;
   }
+  .about{
+    padding-top: 60px;
+    text-align: center;
+  }
