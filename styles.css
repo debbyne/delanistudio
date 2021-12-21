@@ -90,3 +90,29 @@ padding-top: 170px;
   .img-p{
     margin-right: 100px;
   }
+  footer{
+    margin-top: 50px;
+  }
+  .foot{
+    background-image: url(images/del.jpg);
+    height: 430px;
+    margin-top: 400px;
+   color: white;
+  }
+  .foot h2{
+    text-align: center;
+    padding-left: 570px;
+
+  }
+  input{
+    color: white;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+   column-gap: 20px;
+  
+    opacity: 0.2;
+    padding-top: 70px;
+    color: white;
+  }
