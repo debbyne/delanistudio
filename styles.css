@@ -111,8 +111,14 @@ padding-top: 170px;
     display: flex;
     flex-direction: column;
    column-gap: 20px;
-  
+
     opacity: 0.2;
     padding-top: 70px;
     color: white;
+  }
+  .socials{
+    padding-top: 60px;
+    margin-left: 350px;
+    padding-bottom: 30px;
+    color: black;
   }
