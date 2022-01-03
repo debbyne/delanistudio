@@ -3,7 +3,7 @@ best burgar spot in the country
 
 # Description
 
-This website
+This website provides more information on the Delani Studio,the services they offer and how to contact them incase of inquries .
 
 # Demo
 [Live DEmo](https://github.com/debbyne/delanistudio.git/)
