@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DELANI STUDIO</title>
     <script
-      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
@@ -115,12 +115,19 @@
         <footer class="foot">
           <h2>CONTACT US</h2>
           <form action="#" class="form">
-            <div class="alert alert-success">
-              Thanks <span id="name"></span>we have received your message.
+            <div class="row">
+              <div class="col-6">
+                <input id="name" type="text" placeholder="Name" />
+              </div>
+              <div class="col-6">
+                <input id="email" type="email" placeholder="email" />
+              </div>
             </div>
-            <input id="name" type="text" placeholder="Name" />
-            <input id="email" type="email" placeholder="email" />
-            <input id="mesage" type="text" placeholder="Your message here" />
+            <div class="col-10">
+              <textarea class="form-control" rows="8" id="comment"
+              placeholder="Type your message here"></textarea>
+            </div>
+          
           </form>
         </footer>
         <div class="socials">
