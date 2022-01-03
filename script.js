@@ -1,28 +1,21 @@
-$(document).ready(function () {
-  $(".img1-img").click(function () {
-    $(".img1-paragragh").show();
-    $(".this").hide();
-  });
-  $(".img1-paragragh").click(function () {
-    $(".img1-img").show();
-    $(this).hide();
-  });
-  $(".img2-img").click(function () {
-    $(".img2-paragragh").show();
-    $("this").hide();
-  });
-
-  $(".img2-paragragh").click(function () {
-    $(".img2-img").sjow();
-    $(this).hide();
-  });
-
-  $(".img3-img").click(function () {
-    $(".img3-paragragh").show();
-    $(this).hide();
-  });
-  $(".img3-paragragh").click(function () {
-    $(".img2-img").sjow();
-    $(this).hide();
-  });
-});
+$(document).ready(function(){
+  $(".img_1").click(function(){
+    $(this).toggle(function(){
+      $(".design").toggle()
+    })
+  })
+  $(".design").click(function(){
+    $(this).toggle(function(){
+      $(".img_1").toggle()
+    })
+  })
+})
+// hover effect porfolio
+$(document).ready(function(){
+  $(".img-port_1").mouseenter(function(){
+    $(".del1").show()
+  })
+  $(".img-port_1").mouseleave(function(){
+    $(".del1").hide()
+  })
+})
