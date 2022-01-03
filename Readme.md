@@ -1,5 +1,4 @@
-# Delani Studio Website
-best burgar spot in the country
+# Delani Studio 
 
 # Description
 
