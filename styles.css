@@ -83,7 +83,7 @@ body {
 }
 .portfolio {
   height: 350px;
-  width: 1570px;
+  width: 1400px;
   margin-top: 160px;
   padding-top: 50px;
   flex-wrap: wrap;
@@ -103,7 +103,7 @@ footer {
 }
 .foot {
   background-image: url(images/del.jpg);
-  height: 430px;
+  height: 410px;
   margin-top: 400px;
   color: white;
  
@@ -137,3 +137,14 @@ footer {
   padding: 150px 150px;
   top: 0;
 }
+.col-10{
+  opacity: 0.1;
+  color: white;
+}
+.col-6{
+  opacity: 0.1;
+  color: white;
+  display: flex;
+  justify-content: 5px;
+}
+
