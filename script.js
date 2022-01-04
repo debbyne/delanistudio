@@ -1,3 +1,4 @@
+// toggle effect
 $(document).ready(function(){
   $(".img_1").click(function(){
     $(this).toggle(function(){
