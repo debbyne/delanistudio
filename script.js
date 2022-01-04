@@ -40,10 +40,10 @@ $(document).ready(function(){
 
 // hover effect porfolio
 $(document).ready(function(){
-  $(".img-port_1").mouseenter(function(){
+  $(".col-md-3").mouseenter(function(){
     $(".del1").show()
   })
-  $(".img-port_1").mouseleave(function(){
+  $(".col-md-3").mouseleave(function(){
     $(".del1").hide()
   })
 })
