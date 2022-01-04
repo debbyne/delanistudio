@@ -103,3 +103,17 @@ $(document).ready(function () {
     $(".del8").hide();
   });
 });
+$(document).ready(function () {
+  $("#button").click(function (event) {
+    event.preventDefault();
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var comment = $("#comment").val();
+
+    if (name === "" || email === "" || comment === "") {
+      alert("Fill all the fields");
+    } else {
+      alert("Thank you " + name + ". for reaching out to us : ");
+    }
+  });
+});
