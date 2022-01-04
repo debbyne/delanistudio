@@ -2,136 +2,138 @@
     height:100%;
 } */
 
-body{
-    border:1px solid white;
-    margin-left: 15px;
-    font-family: 'Source Sans Pro', sans-serif;
+body {
+  border: 1px solid white;
+  margin-left: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 100%;
 }
-.header{
-    background-image: url(images/del1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: contain;
-    color: white;
-    text-align: center;
-    height: 800px;
-    width: 1350px;
-  }
-  .logo-img{
-    height: 75px;
-    margin-top: 250px;
-  }
-  .header h1{
-    padding-top: 50px;
-  }
-  .haeader p{
-    border: 1px solid red;
-  }
-  .mouse{
-padding-top: 170px;
-  }
-  .about{
-    padding-top: 60px;
-    text-align: center;
-  }
-  .services{
-    margin-top: 40px;
-    color: white;
-    width: 1350px;
-    height: 350px;
-    background-image: url(images/del2.jpg);
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 30px;
-  }
-  .we-do{
-    width: 1350px;
-    height: 350px;
-    margin-top: 30px;
-    padding-top: 60px;
-  }
-  .we-do h2{
-    color: black;
-    text-align: center;
-    margin-top: 60px;
-  }
-  .imgs{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 30px;
-    color: black;
-
-  }
-  .img1{
-    text-align: center;
-  }
-  .design{
-    display: none;
-  }
-  .img2{
-    text-align: center;
-  }
-  .development{
-    display: none;
-  }
-  .img3{
-    text-align: center;
-  }
-  .product{
-    display: none;
-  }
-  .portfolio{
-    height: 350px;
-    width: 1800px;
-    margin-top: 160px;
-    padding-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 10px;
-    row-gap: 10px;
-    padding-left: 60px;
-    padding-bottom: 30px;
-    
-  }
-  .img-port{
-    padding-right: 1px;
-    
-  }
-  .img-p{
-    margin-right: 100px;
-  }
-  footer{
-    margin-top: 50px;
-  }
-  .foot{
-    background-image: url(images/del.jpg);
-    height: 430px;
-    margin-top: 400px;
-   color: white;
-  }
-  .foot h2{
-    text-align: center;
-    /* padding-left: 550px; */
-
-  }
-  .socials{
-    padding-top: 60px;
-    margin-left: 350px;
-    padding-bottom: 30px;
-    color: black;
-  }
-  .del1{
-    display: none;
-    color: black;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 130px 130px;
-  }
-  .del2{
-    display: none;
-    color: black;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 130px 130px;
-  }
-  
+.header {
+  background-image: url(images/del1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: contain;
+  color: white;
+  text-align: center;
+  height: 800px;
+  width: 1450px;
+}
+.logo-img {
+  height: 75px;
+  margin-top: 250px;
+}
+.header h1 {
+  padding-top: 50px;
+}
+.haeader p {
+  border: 1px solid red;
+}
+.mouse {
+  padding-top: 170px;
+}
+.about {
+  padding-top: 60px;
+  text-align: center;
+  margin-left: 300px;
+}
+.services {
+  margin-top: 40px;
+  color: white;
+  width: 1450px;
+  height: 350px;
+  background-image: url(images/del2.jpg);
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.we-do {
+  width: 1350px;
+  height: 350px;
+  margin-top: 30px;
+  padding-top: 60px;
+}
+.we-do h2 {
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+}
+.imgs {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  color: black;
+}
+.img1 {
+  text-align: center;
+}
+.design {
+  display: none;
+}
+.img2 {
+  text-align: center;
+}
+.development {
+  display: none;
+}
+.img3 {
+  text-align: center;
+}
+.product {
+  display: none;
+}
+.portfolio {
+  height: 350px;
+  width: 1570px;
+  margin-top: 160px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+}
+.img-port {
+  padding-right: 1px;
+}
+.img-p {
+  margin-right: 100px;
+}
+footer {
+  margin-top: 50px;
+}
+.foot {
+  background-image: url(images/del.jpg);
+  height: 430px;
+  margin-top: 400px;
+  color: white;
+ 
+}
+.foot h2 {
+  text-align: center;
+  /* padding-left: 550px; */
+}
+.socials {
+  padding-top: 60px;
+  margin-left: 350px;
+  padding-bottom: 30px;
+  color: black;
+}
+.comment{
+  opacity: 0.9;
+  background-color: transparent;
+}
+.del1,
+.del2,
+.del3,
+.del4,
+.del5,
+.del6,
+.del7,
+.del8 {
+  display: none;
+  color: black;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 150px 150px;
+  top: 0;
+}
