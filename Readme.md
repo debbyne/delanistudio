@@ -5,7 +5,7 @@
 This website provides more information on the Delani Studio,the services they offer and how to contact them incase of inquries .
 
 # Demo
-[Live DEmo](https://github.com/debbyne/delanistudio.git/)
+[Live DEmo](https://debbyne.github.io/delanistudio/)
 
 # Technologies Used
 HTML
