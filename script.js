@@ -11,6 +11,33 @@ $(document).ready(function(){
     })
   })
 })
+
+$(document).ready(function(){
+  $(".img_2").click(function(){
+    $(this).toggle(function(){
+      $(".development").toggle()
+    })
+  })
+  $(".development").click(function(){
+    $(this).toggle(function(){
+      $(".img_2").toggle()
+    })
+  })
+})
+
+$(document).ready(function(){
+  $(".img_3").click(function(){
+    $(this).toggle(function(){
+      $(".product").toggle()
+    })
+  })
+  $(".product").click(function(){
+    $(this).toggle(function(){
+      $(".img_3").toggle()
+    })
+  })
+})
+
 // hover effect porfolio
 $(document).ready(function(){
   $(".img-port_1").mouseenter(function(){

@@ -71,8 +71,14 @@ padding-top: 170px;
   .img2{
     text-align: center;
   }
+  .development{
+    display: none;
+  }
   .img3{
     text-align: center;
+  }
+  .product{
+    display: none;
   }
   .portfolio{
     height: 350px;
